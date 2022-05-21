@@ -1,15 +1,10 @@
 echo(version=version());
 //All dimensions are in mm
+enableMidBox=true;
+enableEndboxWithCutout=true;
+enableEndboxNoCutout=true;
 
-l = 133; // lenght of box in x dir
-w = 68;  // width of box in y dir
-h=32;    // height of box without lid
-wall=2;  // wall thickness
-postloc=28; // where the edge posts are in y direction
-postsize=[1.85,3] ;  //Dimension of posts in x and y
-basethickness=3;
-holdslotloc=81.5;
-holdslotwidth=10;
+
 wireholddiameter = 10;
 switchcutout = [29.2,22.7];
 //Perforation size: 23mm*10.5mm
@@ -24,4 +19,6 @@ BatteryDepth=265;
 BatteryPadding=7;
 BMCThickness=10;
 WiringAllowance=10;
-WallThickness=3.0;
+WallThickness=2.5;
+SwitchProtrude=26;
+overlap=15;
