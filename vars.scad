@@ -2,7 +2,7 @@ echo(version=version());
 //All dimensions are in mm
 
 
-wireholddiameter = 10;
+wireholddiameter = 20;
 switchcutout = [29.2,22.7];
 //Perforation size: 23mm*10.5mm
 voltmetercutout=[24,11.5];

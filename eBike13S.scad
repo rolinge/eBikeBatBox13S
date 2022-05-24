@@ -138,6 +138,6 @@ if (enableEndboxWithCutout) {
   endboxWithCutout();
 }
 if (enableMidBox) {
-  translate ([100,0,0])
+  translate ([100.5,0,0])
   midBox();
 }
